@@ -1,0 +1,39 @@
+SMO TERM_THRESHOLD .05, no ngrams
+    0       
+    0.783   
+    0.421   
+    0.585   
+    0       
+    0.517   
+
+SMO FEATURE_THRESHOLD .05
+   0        
+   0.71     
+   0.412    
+   0.438    
+   0.909    
+   0.533    
+
+PART FEATURE_THRESHOLD .025 
+    0       
+    0.818   
+    0.516   
+    0.667   
+    0.6     
+    0.641   
+
+RandomForest FEATURE_THRESHOLD .05 
+   0      
+   0.87   
+   0.634  
+   0.632  
+   0.333  
+   0.658
+
+RandomForest FEATURE_THRESHOLD .05 BINARIZED
+   0        
+   0.917    
+   0.55     
+   0.526    
+   0.333    
+   0.604    
